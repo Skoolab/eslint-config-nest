@@ -32,7 +32,7 @@ npm install @skoolab/eslint-config-nest eslint typescript prettier -D
    Add a `eslint.config.js` file to your project root with the following content:
 
    ```javascript
-   import skoolabConfig from '@skoolab/eslint-config'
+   import skoolabConfig from '@skoolab/eslint-config-nest'
 
    export default [...skoolabConfig]
    ```
